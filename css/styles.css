@@ -1,0 +1,46 @@
+.navbar-edit{
+    background: black;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 0%;
+}
+
+.navbar-edit .navbar-nav>li>a{
+    color: yellow;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+
+.navbar-edit .navbar-brand {
+    color: rgb(43, 226, 208);
+    font-weight: bolder;
+}
+
+
+.flag{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    top: 30px;
+    border: 1px solid whitesmoke;
+    
+
+}
+
+.carousel{
+    border-radius: 8px;
+    height: 500px;
+}
+
+.black-cap{
+    color: whitesmoke;
+}
+
+.cap{
+    position: absolute;
+    top: 110px;
+    color: whitesmoke;
+}
