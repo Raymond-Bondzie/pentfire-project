@@ -65,7 +65,7 @@
 </div>
 
     <div class="contactForm">
-        <form action="" method="post">
+        <form action="https://formsubmit.co/pentfire.info@gmail.com" method="Post">
             <h2>send your message</h2> 
             <div class="inputBox">
                 <input name="name" type="text" required="required" id="name" class="input">
@@ -126,13 +126,13 @@
 <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
+    <!-- <script>
         var btn = document.getElementById('btn');
         btn.addEventListener('click', function(e) {
             e.preventDefault();
-            const name = document.getElementById('name');
-            const email = document.getElementById('email');
-            const msg = document.getElementById('msg')
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const msg = document.getElementById('msg').value;
             let popup = document.getElementById('popup');
             const closePopupBtn = document.getElementById('closePopup-btn');
             // let inputs = document.querySelectorAll('input')
@@ -140,13 +140,13 @@
             
 
             Email.send({
-        Host: "smtp.elasticemail.com",
+        Host: "smtp.gmail.com",
         Username: "pentfire.info@gmail.com",
         Password: "B7406E12DEFFAAE9B552E32C26671B76E279",
         To: "pentfire.info@gmail.com",
         From: email.value,
         Subject: name.value+ " sent you a message",
-        Body: "Name: " + name.value + "<br/> Email: " + email.value + "<br/> Message: " + msg.value
+        Body: "Name: " + name + "<br/> Email: " + email + "<br/> Message: " + msg
     }).then(() => openPopup()).then(() => console.log("it was successful")).catch((err) => console.log(err))
 
             
@@ -175,7 +175,7 @@
         })
 
         
-    </script>
+    </script> -->
 
 
    
