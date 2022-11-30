@@ -83,7 +83,7 @@
             </div>
 
             <div class="inputBox">
-                <input type="submit" value="send" id="btn">
+                <input type="submit" value="send" id="btn" onclick="openpopup">
             </div>
             <input type="hidden" name="_next" value="open-popup">
             <input type="hidden" name="_captcha" value="false">
@@ -130,6 +130,11 @@
 <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function openpopup() {
+            popup.classList.add("open-popup");
+        }
+    </script>
     <!-- <script>
         var btn = document.getElementById('btn');
         btn.addEventListener('click', function(e) {
